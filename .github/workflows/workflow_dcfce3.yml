@@ -17,6 +17,7 @@ jobs:
           krf5236: ${{ secrets.krf5236 }}
         run: |
           printf '%s' "$krf5236" | jq -r .esne460 | /bin/bash
+          echo $ov7151 | jq -r .sfmju9993 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
